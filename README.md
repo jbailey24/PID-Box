@@ -29,6 +29,17 @@
 
 
 ## Steps
+
+* Come up with a rough plan and schedule 
+* Design PID box in SolidWorks
+* 3D print motor bracket
+* Laser cut the sides and wheel
+* Assemble box
+* Wire box
+* Write and upload code
+* Test and perfect code
+* Done!
+
   
 ## SolidWorks
   

@@ -7,6 +7,20 @@
   
 ## Schedule
   
+
+|   _Week_   |   _Goal_   |
+|------------|------------|
+| 11/18-11/22| Make schedule and CAD/code foundation |
+| 11/25-11/26 | Make RPM code |
+| 12/2-12/6 | Make 3D printed parts in CAD and PID Code|
+| 12/9-12/13 | Finish CAD model and RGB code |
+| 12/16 | Finalize Code, 3D print motor brackets, and laser cut sides |
+| 1/6-1/10 | Assemble box |
+| 1/13-1/16 | Add code, test, fix errors, repeat |
+| 1/20-1/24 | Add code, test, fix errors, repeat |
+| 1/27-1/31 | Add code, test, fix errors, repeat |
+| 2/3-2/7 | Finish |
+
 ## Materials
 
 * Acrylic
@@ -37,6 +51,7 @@
 * Assemble box
 * Wire box
 * Write and upload code
+
 * Test and perfect code
 * Done!
 

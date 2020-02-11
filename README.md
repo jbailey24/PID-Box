@@ -51,7 +51,6 @@
 * Assemble box
 * Wire box
 * Write and upload code
-
 * Test and perfect code
 * Done!
 
@@ -63,7 +62,12 @@
 ## Wiring
   
 ## Noteable Components
-  
+* RGB LED
+  * We thought it would be fun the try our hand at something neither of us had used before. While fairly straightforward, the LED adds an interesting visual to our project. It turns red when the wheel is slower and fades to green as the wheel speeds up. 
+* Motor Bracket
+  * The motor bracket, inspired by the motor brackets used by the BACON FTC team, consists of two halves, which clamp the motor between them using screws. This allows for a better grip on the motor, which is essential for a more stable wheel. 
+* Battery Mount
+
 ## Encountered Issues
   
  

@@ -3,9 +3,7 @@
 
 <General description of box with photos>
 	
-<img src="https://lh4.googleusercontent.com/gDNd8Uj2McP20h7n0FmXF1Jae3AAxSxt0gf9NqAtlsq5hXcMqK8Dyw1Shi411xebMMFmEU4zaIeBZ1U2KNmwBney4gEWtoRwQ55IGOcduBfPTk9QjD4M_q20I7u6qXjS7PBoHkfW" alt="Isometric view of box" title="HELLO FROM THE OTHER SIDE" width="300" />
-<img src="https://lh6.googleusercontent.com/PQClWiQvRrxgx5BHZCClSvPoExAJhqsbDhGFwCgj2b2Ya9UvBj7xvgEiXWWRNBsDAs6vtYMTez5CO152USk24UpD6eG430XHX1BEeFfnOIdFGkzQjGppcXdNeMVFZV8PYDWmMJXP" alt="PID box side view" title="I MUST HAVE CALLED A THOUSAND TIMES" width="300"/>
-<img src="https://lh3.googleusercontent.com/UR5WCdrqodOnzkZJy-jg-YqGKLcGFy8hQntHNdq0dgSDRwIcCVzXFZQ6qcKHicticSQ4naidrd77ynHQaxT9Pf3cD9iMZ8GWH6GbCQfHFCRk8S8MdmzBzsTxfn6bLnNd1uNd5PVH" alt="PID box running" title="TO TELL YOU I'M SORRY FOR EVERYTHING THAT I'VE DONE" width="300"/>
+<img src="https://lh4.googleusercontent.com/gDNd8Uj2McP20h7n0FmXF1Jae3AAxSxt0gf9NqAtlsq5hXcMqK8Dyw1Shi411xebMMFmEU4zaIeBZ1U2KNmwBney4gEWtoRwQ55IGOcduBfPTk9QjD4M_q20I7u6qXjS7PBoHkfW" alt="Isometric view of box" width="300" /><img src="https://lh6.googleusercontent.com/PQClWiQvRrxgx5BHZCClSvPoExAJhqsbDhGFwCgj2b2Ya9UvBj7xvgEiXWWRNBsDAs6vtYMTez5CO152USk24UpD6eG430XHX1BEeFfnOIdFGkzQjGppcXdNeMVFZV8PYDWmMJXP" alt="PID box side view" width="300"/><img src="https://lh3.googleusercontent.com/UR5WCdrqodOnzkZJy-jg-YqGKLcGFy8hQntHNdq0dgSDRwIcCVzXFZQ6qcKHicticSQ4naidrd77ynHQaxT9Pf3cD9iMZ8GWH6GbCQfHFCRk8S8MdmzBzsTxfn6bLnNd1uNd5PVH" alt="PID box running" width="300"/>
 
   
 ## Initial Planning
@@ -62,14 +60,13 @@
   
 ## SolidWorks
   
-<img src="https://lh5.googleusercontent.com/ko0ZzaRYsS60VzwcvmtYZz1dXzhi-cIChcwIn0WKOV0cGjvbj3YQOMQHjthIiS7hbEAcT2NGltuHlE3ObMgwg97l15nNKyLE6es6TlB_K2YmE9SA3uLjlSfl_dfC-FZGfTp83MRJ" alt="Isometric view of CAD" title="BUT WHEN I CALL YOU NEVER SEEM T BE HOME" width="300"/><img src="https://lh6.googleusercontent.com/nQ7kFiQPmNRSYxxomFNr3HzKWKpsSvVCGUgyPqlVAUktzVPIog4caLucMWMDJ2j6EJiOsI0e74UKFjdP-GgyBjGPkODNrYW9B6mN_Yol" alt="View of inside of CAD" title="HELLO FROM THE OUTSIDE" width="300"/>
+<img src="https://lh5.googleusercontent.com/ko0ZzaRYsS60VzwcvmtYZz1dXzhi-cIChcwIn0WKOV0cGjvbj3YQOMQHjthIiS7hbEAcT2NGltuHlE3ObMgwg97l15nNKyLE6es6TlB_K2YmE9SA3uLjlSfl_dfC-FZGfTp83MRJ" alt="Isometric view of CAD" width="300"/><img src="https://lh6.googleusercontent.com/nQ7kFiQPmNRSYxxomFNr3HzKWKpsSvVCGUgyPqlVAUktzVPIog4caLucMWMDJ2j6EJiOsI0e74UKFjdP-GgyBjGPkODNrYW9B6mN_Yol" alt="View of inside of CAD" width="300"/>
 
 ## Code
   
 ## Wiring
 
-<img src="https://lh5.googleusercontent.com/IIBsLStzbg81R4Nhm8Dx_YUrik1Uw3OV_AYxHcGhAlzaQN6azOS1izGOGvhrzifY95M6FRzwSaDeTrLZzHHyV-e7oSutYBQ6xdbmlON8SHnvucaAOn-GON9R0ge9R_8PIV4c0znC" alt="Fritzing Diagram"
-	title="A cute kitten" width="500"/>
+<img src="https://lh5.googleusercontent.com/IIBsLStzbg81R4Nhm8Dx_YUrik1Uw3OV_AYxHcGhAlzaQN6azOS1izGOGvhrzifY95M6FRzwSaDeTrLZzHHyV-e7oSutYBQ6xdbmlON8SHnvucaAOn-GON9R0ge9R_8PIV4c0znC" alt="Fritzing Diagram" width="500"/>
  
 ## Noteable Components
 * RGB LED

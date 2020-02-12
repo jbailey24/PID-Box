@@ -8,7 +8,7 @@
   
 ## Initial Planning
  
-<img src="https://lh3.googleusercontent.com/SLg_KaX7GMfZ3DgxHvSeXM7V1ZLy65XAEDrLOYFUcGWuOvYyesOBaRBfgmpVPb3aS0lDhASPck9iT1I744Z9b6UUJ3m3Ezh9x3Xl8aAo7pGeqRN9bHbzDUedd4AGd0nbuO10POkV" alt="Digital sketch" width="300"/><img src="https://lh4.googleusercontent.com/npHgFCw1L05GnVFdic3DeSmy4hk62jzOa5bGj_xyJ5jBABTR6TltoCR9qVLn4V4MHVzhf682pFS12IlCjpcujiPuXVH6yCV5tgXLinCIHQv2OJkN7uu_Ob14TECh0DnLoBeUXE8v" alt="Sketch" width="300"/>
+<img src="https://lh3.googleusercontent.com/SLg_KaX7GMfZ3DgxHvSeXM7V1ZLy65XAEDrLOYFUcGWuOvYyesOBaRBfgmpVPb3aS0lDhASPck9iT1I744Z9b6UUJ3m3Ezh9x3Xl8aAo7pGeqRN9bHbzDUedd4AGd0nbuO10POkV" alt="Digital sketch" width="400"/><img src="https://lh4.googleusercontent.com/npHgFCw1L05GnVFdic3DeSmy4hk62jzOa5bGj_xyJ5jBABTR6TltoCR9qVLn4V4MHVzhf682pFS12IlCjpcujiPuXVH6yCV5tgXLinCIHQv2OJkN7uu_Ob14TECh0DnLoBeUXE8v" alt="Sketch" width="200"/>
  
 ## Schedule
   

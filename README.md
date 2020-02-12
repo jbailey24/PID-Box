@@ -3,11 +3,13 @@
 
 <General description of box with photos>
 	
-<img src="https://lh4.googleusercontent.com/gDNd8Uj2McP20h7n0FmXF1Jae3AAxSxt0gf9NqAtlsq5hXcMqK8Dyw1Shi411xebMMFmEU4zaIeBZ1U2KNmwBney4gEWtoRwQ55IGOcduBfPTk9QjD4M_q20I7u6qXjS7PBoHkfW" alt="Isometric view of box" width="300" /><img src="https://lh6.googleusercontent.com/PQClWiQvRrxgx5BHZCClSvPoExAJhqsbDhGFwCgj2b2Ya9UvBj7xvgEiXWWRNBsDAs6vtYMTez5CO152USk24UpD6eG430XHX1BEeFfnOIdFGkzQjGppcXdNeMVFZV8PYDWmMJXP" alt="PID box side view" width="300"/><img src="https://lh3.googleusercontent.com/UR5WCdrqodOnzkZJy-jg-YqGKLcGFy8hQntHNdq0dgSDRwIcCVzXFZQ6qcKHicticSQ4naidrd77ynHQaxT9Pf3cD9iMZ8GWH6GbCQfHFCRk8S8MdmzBzsTxfn6bLnNd1uNd5PVH" alt="PID box running" width="300"/>
+<img src="https://lh4.googleusercontent.com/gDNd8Uj2McP20h7n0FmXF1Jae3AAxSxt0gf9NqAtlsq5hXcMqK8Dyw1Shi411xebMMFmEU4zaIeBZ1U2KNmwBney4gEWtoRwQ55IGOcduBfPTk9QjD4M_q20I7u6qXjS7PBoHkfW" alt="Isometric view of box" width="290" /><img src="https://lh6.googleusercontent.com/PQClWiQvRrxgx5BHZCClSvPoExAJhqsbDhGFwCgj2b2Ya9UvBj7xvgEiXWWRNBsDAs6vtYMTez5CO152USk24UpD6eG430XHX1BEeFfnOIdFGkzQjGppcXdNeMVFZV8PYDWmMJXP" alt="PID box side view" width="290"/><img src="https://lh3.googleusercontent.com/UR5WCdrqodOnzkZJy-jg-YqGKLcGFy8hQntHNdq0dgSDRwIcCVzXFZQ6qcKHicticSQ4naidrd77ynHQaxT9Pf3cD9iMZ8GWH6GbCQfHFCRk8S8MdmzBzsTxfn6bLnNd1uNd5PVH" alt="PID box running" width="290"/>
 
   
 ## Initial Planning
-  
+ 
+<img src="https://lh3.googleusercontent.com/SLg_KaX7GMfZ3DgxHvSeXM7V1ZLy65XAEDrLOYFUcGWuOvYyesOBaRBfgmpVPb3aS0lDhASPck9iT1I744Z9b6UUJ3m3Ezh9x3Xl8aAo7pGeqRN9bHbzDUedd4AGd0nbuO10POkV" alt="Digital sketch" width="300"/><img src="https://lh4.googleusercontent.com/npHgFCw1L05GnVFdic3DeSmy4hk62jzOa5bGj_xyJ5jBABTR6TltoCR9qVLn4V4MHVzhf682pFS12IlCjpcujiPuXVH6yCV5tgXLinCIHQv2OJkN7uu_Ob14TECh0DnLoBeUXE8v" alt="Sketch" width="300"/>
+ 
 ## Schedule
   
 

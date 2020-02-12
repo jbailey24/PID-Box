@@ -66,8 +66,10 @@
 
 ## Code
   
+###### [Link to Code](https://github.com/jbailey24/PID-Box/blob/master/PID-Box_Final/PID-Box_Final.ino)
 ## Wiring
 
+###### [Link to Fritzing](https://github.com/jbailey24/PID-Box/blob/master/PID_Fritzing.fzz)
 <img src="https://lh5.googleusercontent.com/IIBsLStzbg81R4Nhm8Dx_YUrik1Uw3OV_AYxHcGhAlzaQN6azOS1izGOGvhrzifY95M6FRzwSaDeTrLZzHHyV-e7oSutYBQ6xdbmlON8SHnvucaAOn-GON9R0ge9R_8PIV4c0znC" alt="Fritzing Diagram" width="500"/>
  
 ## Noteable Components

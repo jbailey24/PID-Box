@@ -57,10 +57,15 @@
   
 ## SolidWorks
   
+<img src="https://lh5.googleusercontent.com/ko0ZzaRYsS60VzwcvmtYZz1dXzhi-cIChcwIn0WKOV0cGjvbj3YQOMQHjthIiS7hbEAcT2NGltuHlE3ObMgwg97l15nNKyLE6es6TlB_K2YmE9SA3uLjlSfl_dfC-FZGfTp83MRJ" alt="Isometric veiw of CAD" title="Peekaboo" width="300"/><img src="https://lh6.googleusercontent.com/nQ7kFiQPmNRSYxxomFNr3HzKWKpsSvVCGUgyPqlVAUktzVPIog4caLucMWMDJ2j6EJiOsI0e74UKFjdP-GgyBjGPkODNrYW9B6mN_Yol" alt="View of inside of CAD" title="HIIIIIIII" width="300"/>
+
 ## Code
   
 ## Wiring
-  
+
+<img src="https://lh5.googleusercontent.com/IIBsLStzbg81R4Nhm8Dx_YUrik1Uw3OV_AYxHcGhAlzaQN6azOS1izGOGvhrzifY95M6FRzwSaDeTrLZzHHyV-e7oSutYBQ6xdbmlON8SHnvucaAOn-GON9R0ge9R_8PIV4c0znC" alt="Fritzing Diagram"
+	title="A cute kitten" width="500"/>
+
 ## Noteable Components
 * RGB LED
   * We thought it would be fun the try our hand at something neither of us had used before. While fairly straightforward, the LED adds an interesting visual to our project. It turns red when the wheel is slower and fades to green as the wheel speeds up. 

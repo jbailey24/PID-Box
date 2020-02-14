@@ -72,6 +72,8 @@ The first thing we did when confronted by this new project, is pull out pencils 
 For this project, we used SolidWorks as our CAD platform. Making a full digital version of our box really helped lay out how we wanted our box to fit together, before wasting any materials. Because we weren't sure of the exact dimensions of the sides, we assigned equations to the box which made it possible to change the sizes of the walls without convoluting any of the other features. This proved very useful, as we changed the dimensions several times before settling on one that worked. In the end, we found that a perfect cube accommodated the different parts most efficiently. 
 
 ## Code
+
+For this project, the code was actually rather simple once you know what to do. The PID code is quite complicated, as it uses several calculus functions, but you don’t need to understand calculus to code it. The biggest task that I had to complete was probably finding a way to code the RPM without using delays. I eventually did this using an additional variable and activating the code only if the time since startup is greater than the variable. The variable was then added to every time the code triggered. The biggest issue was actually just missing a single word of code, which stopped the photointerrupter from triggering properly.
   
 ###### [Link to Code](https://github.com/jbailey24/PID-Box/blob/master/PID-Box_Final/PID-Box_Final.ino)
 

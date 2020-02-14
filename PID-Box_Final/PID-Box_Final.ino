@@ -2,42 +2,37 @@
 # include <LiquidCrystal_I2C.h>
 LiquidCrystal_I2C lcd(0x27, 16, 2); //LCD Backpack.ino
 
-volatile int output = 0;
-int targetspd = 0;
-bool juston = 0;
+volatile int output = 0; //an integer increased in the interrupt
+int targetspd = 0; //the set speed of the motor; going to be changed based off of potentiometer value
+bool juston = 0; // used for PID initiation sequence timings
 
-const int potentiometer = A1;
+const int potentiometer = A1; //the potentiometer pin
 const int pinterrupter = 3; //photo interrupter
 const int motorpin = 6; // motor
-const int wheeled = 13;
+const int wheeled = 13;// LED pin which triggers in the interrupt
 
-const int holenum = 6;
-const int calcps = 3;
-int wt = 1000 / calcps;
+const int holenum = 6; // number of holes in the wheel
+const int calcps = 3; // how many times the RPM and PID are being calculated in a second
+int wt = 1000 / calcps; // wait time; used in PID calculations
 
-int rpmval1 = 0;
-int rpmval2 = 0;
-int rpmval3 = 0;
 int realrpm = 0; // this is the PV, the process variable. Process variable is another name for the actual value of a variable.
 
-long oldmillis = 0;
-int test = 0;
+long oldmillis = 0; //used for timing instead of delays
 
+const int maxrpmval = 1500;//the supposed max rpm value
 
-const int maxrpmval = 1500;
-
-const int red = 9;
+const int red = 9;// the three RGB LED pins
 const int green = 10;
 const int blue = 11;
 
-int error = 0;
+int error = 0; // both used for Proportional calculations
 int previous_error = 0;
 
-int integral = 0;
+int integral = 0; //PID variables
 int derivative = 0;
 int drive = 0;
 
-double kP = 1.4;
+double kP = 1.4; //PID tuning variables; note: kI is small because it is divided by 333 for wait time, kD is large because it is multiplied by 333
 double kI = 0.004;
 double kD = 100;
 
@@ -46,16 +41,16 @@ void setup()
 {
   Serial.begin(9600);
 
-  pinMode(pinterrupter, INPUT_PULLUP);
-  pinMode(4, INPUT);
+  pinMode(pinterrupter, INPUT_PULLUP); //setup for photointerrupter
+  pinMode(4, INPUT); //setup for the PID switch
   attachInterrupt(digitalPinToInterrupt(pinterrupter), RPMCalc, RISING);
   pinMode(wheeled, OUTPUT);
   lcd.init();
   lcd.backlight();
   lcd.begin (16, 2); // for 16 x 2 LCD module]
-  lcd.setCursor(0,0);
+  lcd.setCursor(0, 0);
   lcd.print("Julia Bailey");
-  lcd.setCursor(0,1);
+  lcd.setCursor(0, 1);
   lcd.print(" Mekhi Hernandez");
   delay(1500);
   lcd.setCursor(0, 0);
@@ -68,31 +63,29 @@ void setup()
 void loop()
 {
 
-  if (millis() >= oldmillis * wt)
+  if (millis() >= oldmillis * wt) //if a certain number(333 currently) of milliseconds have passed since last activation, run this code
   {
     detachInterrupt(digitalPinToInterrupt(pinterrupter)); //detach the interruptss
 
     targetspd = analogRead(potentiometer);
 
-    // rpmval3 = rpmval2;
-    // rpmval2 = rpmval1;
-    // rpmval1 = output;
-    realrpm = (output) * (60 * calcps) / holenum;
+    realrpm = (output) * (60 * calcps) / holenum; //the RPM is equal to the number of times the photo interrupter has been triggered, times 30. This number is the number of seconds, times the calculations per second, divided by the number of holes
 
-    lcd.setCursor(12, 0);
+    lcd.setCursor(12, 0); //these 6 lines print the RPM and the set speed
     lcd.print(realrpm);
     lcd.print("   ");
     lcd.setCursor(11, 1);
     lcd.print(map(analogRead(potentiometer), 0, 1023, 0, maxrpmval));
     lcd.print("   ");
-    if (realrpm <= 5000 && targetspd <= 5000) {
-      Serial.print(realrpm);
-      Serial.print(",");
-      Serial.println(map(analogRead(potentiometer), 0, 1023, 0, maxrpmval));
-    }
+
+
+    Serial.print(constrain(realrpm, 0, maxrpmval + 1000)); //print the real rpm and the set speed to the serial monitor for graphing
+    Serial.print(",");
+    Serial.println(map(analogRead(potentiometer), 0, 1023, 0, maxrpmval));
+
     output = 0; //resets the output value so that we can calculate the next rpm
 
-    if (digitalRead(4) == 1)
+    if (digitalRead(4) == 1) // if the PID is off, set the adjustment value to 0
     {
       juston = false;
       drive = 0;
@@ -102,7 +95,7 @@ void loop()
     if (digitalRead(4) == 0)
     {
 
-      if (juston == false)
+      if (juston == false) //If PID switch is on and it previously wasn't, start initialization sequence
       {
         lcd.clear();
         lcd.setCursor(0, 0);
@@ -122,19 +115,19 @@ void loop()
 
       juston = true;
     }
-    analogWrite(motorpin, constrain((map(targetspd, 0, 1023, 0, 150) + drive), 0, 255));
+    analogWrite(motorpin, constrain((map(targetspd, 0, 1023, 0, 150) + drive), 0, 255)); //write to the motor the potentiometer value plus PID stuff
     oldmillis = oldmillis + (1);
     attachInterrupt(digitalPinToInterrupt(pinterrupter), RPMCalc, RISING);
   }
 
 
-  analogWrite(red, (150-(map(constrain(realrpm, 0, 1500), 0, maxrpmval, 0, 150)))); // if rpm is zero, light is green; if rpm is maxed, no green
-  analogWrite(green, map(constrain(realrpm, 0, 1500), 0, maxrpmval, 0, 150));
+  analogWrite(red, (150 - (map(constrain(realrpm, 0, 1500), 0, maxrpmval, 0, 150)))); // if rpm is zero, light is green; if rpm is maxed, no green
+  analogWrite(green, map(constrain(realrpm, 0, 1500), 0, maxrpmval, 0, 150));// print to the green part of the RGBLED the speed of the motor
 
 
 }
 
-void RPMCalc() // the code to count the number of times the wheel has passed the photo interrupter
+void RPMCalc() // the code to count the number of times the wheel has passed the photo interrupter and to switch the led on momentarily
 {
 
   output ++;

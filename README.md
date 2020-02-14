@@ -92,14 +92,14 @@ For this project, the code was actually rather simple once you know what to do. 
 
 ## Encountered Issues
 
-* Wobbly wheel
-  * Problem - The wheel was wobbling so much that it was unable to turn in the slot.
+* Warped wheel
+  * Problem - The wheel was warped so much that it was unable to turn in the slot.
   * Solution - We recut the slot in the acrylic to be wider and worked on adjusting the wheel so it would spin more fluidly.
 * LCD
   * Problem - The LCD had trouble staying on. It would flicker and dim when any tension was put on it.
   * Solution - At first we thought it had something to do with the LCD backpack, but the problem persisted even after we replaced it. We replaced it again, and this time we replaced the LCD too, which seemed to work.
 * Number of data points per rotation
-  * Problem - When we originally designed the wheel, we only had one hole it it. This meant we could only get one reading per rotation and that it took two whole rotations to get any output. For a project that needs to be constantly outputting and updating data, that’s a pretty serious flaw.
+  * Problem - When we originally designed the wheel, we only had one hole it it. This meant we could only get one reading per rotation and that it took two whole rotations to get any output. For a project that needs to be constantly outputting and updating data, that’s a pretty serious flaw. 
   * Solution - We did a quick circular pattern and walk over to the laser cutter, and boom a wheel with 6 holes. The most time consuming part of this process was just attaching the wheel. We had to unwire the motor and photointerruper as well as take off an entire side of the box to get it on.
 
 

@@ -67,7 +67,7 @@ The first thing we did when confronted by this new project, is pull out pencils 
   
 ## CAD
   
-<img src="https://lh5.googleusercontent.com/ko0ZzaRYsS60VzwcvmtYZz1dXzhi-cIChcwIn0WKOV0cGjvbj3YQOMQHjthIiS7hbEAcT2NGltuHlE3ObMgwg97l15nNKyLE6es6TlB_K2YmE9SA3uLjlSfl_dfC-FZGfTp83MRJ" alt="Isometric view of CAD" width="300"/><img src="https://lh6.googleusercontent.com/kMKT6nyjOUraqgolAsCCUPEB2W0U9wvVNKPjsI8iJKX3J7YfL5k9dSK1ESHxlgFjRHJXr7IEV3g8PiR2kCNByCrZFcEb20Lxe7OvQEuT" alt="View of inside of CAD" width="300"/>
+<img src="https://lh5.googleusercontent.com/ko0ZzaRYsS60VzwcvmtYZz1dXzhi-cIChcwIn0WKOV0cGjvbj3YQOMQHjthIiS7hbEAcT2NGltuHlE3ObMgwg97l15nNKyLE6es6TlB_K2YmE9SA3uLjlSfl_dfC-FZGfTp83MRJ" alt="Isometric view of CAD" width="300"/><img src="https://lh6.googleusercontent.com/kMKT6nyjOUraqgolAsCCUPEB2W0U9wvVNKPjsI8iJKX3J7YfL5k9dSK1ESHxlgFjRHJXr7IEV3g8PiR2kCNByCrZFcEb20Lxe7OvQEuT" alt="View of inside of CAD" width="300" />
 
 For this project, we used SolidWorks as our CAD platform. Making a full digital version of our box really helped lay out how we wanted our box to fit together, before wasting any materials. Because we weren't sure of the exact dimensions of the sides, we assigned equations to the box which made it possible to change the sizes of the walls without convoluting any of the other features. This proved very useful, as we changed the dimensions several times before settling on one that worked. In the end, we found that a perfect cube accommodated the different parts most efficiently. 
 
